@@ -1,0 +1,124 @@
+.container {
+  position: relative;
+  width: 80%;
+  /*max-width: 400px;*/
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.container .btnEncender {
+  top: 40%;
+  left: 40%;
+}
+.container .btnAcelerar {
+  top: 58%;
+  left: 36%;
+}
+.container .btnFrenar {
+  top: 55%;
+  left: 31%;
+}
+
+.container .btnClutch {
+  top: 55%;
+  left: 25%;
+}
+
+.container .btnGearBoxUp {
+  top: 59%;
+  left: 46%;
+}
+
+.container .btnGearBoxDown {
+  top: 69%;
+  left: 46%;
+}
+
+.container .btnHandBrake {
+  top: 72%;
+  left: 39%;
+}
+
+.container .btnLeftDirectional {
+  top: 30%;
+  left: 7%;
+}
+.container .btnTurnLeft {
+  top: 30%;
+  left: 13%;
+}
+
+.container .btnRightDirectional {
+  top: 30%;
+  left: 37%;
+}
+.container .btnTurnright {
+  top: 30%;
+  left: 30%;
+}
+
+.container .btnStationary {
+  top: 32%;
+  left: 48%;
+}
+
+.container .contentDetails {
+  position: absolute;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  top: 20.5%;
+  left: 45%;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
+/*estilos del Botones*/
+
+
+.blinking {
+  border-color: #00d07f;
+ }
+ 
+ * {
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+ }
+ 
+ .button {
+   display: inline-block;
+   vertical-align: middle;
+   text-align: center;
+   -webkit-transform: scale(1.25);
+   line-height: 2.6;
+   color: #e1dada;
+   text-shadow: 0px -1px 1px rgba(0,0,0,0.2);
+   border-radius: 100px;
+   text-decoration: none;
+ }
+
+ .active {
+  color: #00d0b0;
+  text-shadow: 0px 0px 7px lighten(#00d07f, 20%);
+}

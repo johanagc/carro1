@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vehiculo Autónomo</title>
+
+    <!-- Fuentes Css para los iconos -->
+    <link href="css/fontawesome.css" rel="stylesheet" />
+    <link href="css/brands.css" rel="stylesheet" />
+    <link href="css/solid.css" rel="stylesheet" />
+
+    <!-- Jquery para facilitar el dllo con js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Alertas y modales para mostrar mensajes -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+    <!-- Archivos de la pagina -->
+    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/car.js" type="text/javascript"></script>
+  </head>
+
+  <body style="text-align: center">
+    <div class="container">
+      <img src="imagenes/micarro.jpg" width="100%" height="100%" />
+
+      <!-- Boton Encender o apagar -->
+      <a
+        href="#"
+        id="btnEncenderApagar"
+        class="btn btnEncender button"
+        title="Encender vehiculo"
+      >
+        <i class="fas fa-power-off"></i>
+      </a>
+
+      <!-- Boton Acelerar-->
+      <a
+        href="#"
+        id="btnAcelerar"
+        class="btn btnAcelerar button"
+        title="Acelerar vehiculo"
+      >
+        <i class="fas fa-tachometer-alt"></i>
+      </a>
+
+      <!-- Boton Frenar-->
+      <a
+        href="#"
+        id="btnFrenar"
+        class="btn btnFrenar button"
+        title="Frenar vehiculo"
+      >
+        <i class="fas fa-stop-circle"></i>
+      </a>
+
+      <!-- Boton Clutch-->
+      <a
+        href="#"
+        id="btnClutch"
+        class="btn btnClutch button"
+        title="Presionar clutch"
+      >
+        <i class="fas fa-shoe-prints"></i>
+      </a>
+
+      <!-- Boton Subir velocidad-->
+      <a
+        href="#"
+        id="btnGearBoxUp"
+        class="btn btnGearBoxUp button"
+        title="Agregar cambio de velocidad"
+      >
+        <i class="fas fa-level-up-alt"></i>
+      </a>
+
+      <!-- Boton Bajar velocidad-->
+      <a
+        href="#"
+        id="btnGearBoxDown"
+        class="btn btnGearBoxDown button"
+        title="Najar cambio de velocidad"
+      >
+        <i class="fas fa-level-down-alt"></i>
+      </a>
+
+      <!-- Boton presionar freno de mano -->
+      <a
+        href="#"
+        id="btnHandBrake"
+        class="btn btnHandBrake button"
+        title="Presionar freno de mano"
+      >
+        <i class="fas fa-hand-rock"></i>
+      </a>
+
+      <!-- Boton direccional Izquierda -->
+      <a
+        href="#"
+        id="btnLeftDirectional"
+        class="btn btnLeftDirectional button"
+        title="Presionar direccional Izquierda"
+      >
+        <i class="fas fa-angle-double-left"></i>
+      </a>
+      <!-- Boton girar Izquierda -->
+      <a
+        href="#"
+        id="btnTurnLeft"
+        class="btn btnTurnLeft button"
+        title="Presionar direccional Izquierda"
+      >
+        <i class="fas fa-arrow-left"></i>
+      </a>
+
+      <!-- Boton direccional Derecha -->
+      <a
+        href="#"
+        id="btnRightDirectional"
+        class="btn btnRightDirectional button"
+        title="Presionar direccional Derecha"
+      >
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+      <!-- Boton girar Derecha -->
+      <a
+        href="#"
+        id="btnTurnRight"
+        class="btn btnTurnright button"
+        title="Presionar direccional derecha"
+      >
+        <i class="fas fa-arrow-right"></i>
+      </a>
+
+      <!-- Boton Estacionarias -->
+      <a
+        href="#"
+        id="btnStationary"
+        class="btn btnStationary button"
+        title="Presionar estacionarias"
+      >
+        <i class="fas fa-arrows-alt-h"></i>
+      </a>
+
+      <div id="contentDetails" class="contentDetails">
+        Caja: <span id="currentGearBox">0 </span><br />
+        Vel: <span id="currentSpeed">0 </span>km/h
+      </div>
+    </div>
+  </body>
+</html>
